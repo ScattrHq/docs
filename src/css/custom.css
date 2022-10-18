@@ -10,9 +10,9 @@
   --ifm-color-primary-dark: #3745ff;
   --ifm-color-primary-darker: #1b2dff;
   --ifm-color-primary-darkest: #0014ff;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary-light: #3745ff;
+  --ifm-color-primary-lighter: #8e95ff;
+  --ifm-color-primary-lightest: #a6acff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
