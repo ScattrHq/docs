@@ -7,12 +7,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Scattr',
+
   tagline: 'Post your article on multiple platforms in 1-click 🚀',
   url: 'https://scattr.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -58,9 +59,10 @@ const config = {
     ({
       navbar: {
         title: 'Scattr',
+
         logo: {
-          alt: 'My Site Logo',
-          src: 'https://static.scattr.io/logos/logo_main_inner.svg',
+          alt: 'Scattr-Logo',
+          src: 'img/scattr.svg',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
