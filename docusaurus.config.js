@@ -7,12 +7,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Scattr',
+
   tagline: 'Post your article on multiple platforms in 1-click 🚀',
   url: 'https://scattr.io/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -58,9 +59,10 @@ const config = {
     ({
       navbar: {
         title: 'Scattr',
+
         logo: {
-          alt: 'My Site Logo',
-          src: 'https://static.scattr.io/logos/logo_main_inner.svg',
+          alt: 'Scattr-Logo',
+          src: 'img/scattr.svg',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
@@ -72,15 +74,34 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+          style: 'dark',
         links: [
           {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Onboarding',
+                to: 'https://twitter.com/ScattrHq',
+              }, {
+                label: 'Integrations',
+                to: 'https://twitter.com/ScattrHq',
+              },
+            ],
+          },{
+            title: 'Social',
+            items: [
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/ScattrHq',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/ScattrHq',
+              },
+            ],
+          },{
             title: 'Community',
             items: [
-                {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/ScattrHq',
@@ -94,14 +115,23 @@ const config = {
                 label: 'Blog',
                 to: 'https://blog.scattr.io',
               },
+
+            ],
+          }, {
+            title: 'Legal',
+            items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/ScattrHq',
+                label: 'Privacy Policy',
+                to: 'https://blog.scattr.io',
+              },
+              {
+                label: 'Terms of Service',
+                to: 'https://github.com/ScattrHq',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Scattr`,
+        copyright: `Copyright © ${new Date().getFullYear()} Scattr.io`,
       },
       prism: {
         theme: lightCodeTheme,
