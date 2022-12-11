@@ -11,7 +11,7 @@ const config = {
   tagline: 'Post your article on multiple platforms in 1-click 🚀',
   url: 'https://scattr.io/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
 
