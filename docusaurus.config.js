@@ -14,9 +14,6 @@ const config = {
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Scattrhq', // Usually your GitHub org/user name.
   projectName: 'Scattr Docs', // Usually your repo name.
 
@@ -81,10 +78,10 @@ const config = {
             items: [
               {
                 label: 'Onboarding',
-                to: 'https://twitter.com/ScattrHq',
+                to: 'https://docs.scattr.io/docs/category/getting-started',
               }, {
                 label: 'Integrations',
-                to: 'https://twitter.com/ScattrHq',
+                to: 'https://docs.scattr.io/docs/Get%20Started/Integrations/dev',
               },
             ],
           },{
@@ -97,14 +94,6 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/ScattrHq',
-              },
-            ],
-          },{
-            title: 'Community',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/ScattrHq',
               },
             ],
           },
@@ -122,11 +111,11 @@ const config = {
             items: [
               {
                 label: 'Privacy Policy',
-                to: 'https://blog.scattr.io',
+                to: 'https://public.scattr.io/Legal-information/Scattr__Privacy_Policy.pdf',
               },
               {
                 label: 'Terms of Service',
-                to: 'https://github.com/ScattrHq',
+                to: 'https://public.scattr.io/Legal-information/Scattr__Terms_of_Services.pdf',
               },
             ],
           },
