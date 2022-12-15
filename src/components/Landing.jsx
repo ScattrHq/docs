@@ -27,7 +27,7 @@ export default function Landing() {
           <div class="cta my-5">
             <Link
               class="bg-primary hover:bg-primary-dark text-white p-2 rounded-md px-5"
-              to="/docs"
+              to="/docs/category/getting-started"
             >
 Read the Docs 📖
             </Link>
