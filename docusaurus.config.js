@@ -24,7 +24,9 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  plugins: [
+    'docusaurus-tailwindcss',
+  ],
   presets: [
     [
       'classic',
@@ -45,7 +47,7 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+            customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -61,6 +63,7 @@ const config = {
           alt: 'Scattr-Logo',
           src: 'img/scattr.svg',
         },
+
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -126,6 +129,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+
     }),
 };
 
