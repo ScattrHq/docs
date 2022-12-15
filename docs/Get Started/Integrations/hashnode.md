@@ -18,6 +18,6 @@ To get started, you will need to have a Hashnode account. If you don't have one 
 - On the developer settings page, scroll down until you see the "API Keys" section. In this section, you will see a button labeled "Generate API Key". Click on this button to generate a new API key for your account.
 After clicking on the "Generate API Key" button, a modal window will appear with your API key. Copy this key and save it somewhere safe, as you will need it to access the Hashnode API.
 
-Once you have your API key, pest it in your with hashnode username Scattr account and you are ready to go!
+Once you have your API key, paste it in your with hashnode username Scattr account and you are ready to go!
 
 ![signup_frame.png](../img/scattr_integration_frame.png)
