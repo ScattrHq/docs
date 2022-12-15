@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import  '../css/custom.css';
 
 export default function Landing() {
   return (
-    <div class="font-lato  bg-minimal-bg max-w-[full] max-h-[full] mx-auto">
+    <div class="font-lato  bg ifm-homo-color max-w-[full] max-h-[full] mx-auto">
       <nav class="flex items-center justify-between tab:justify-center px-[10%] border-b">
 
       </nav>
