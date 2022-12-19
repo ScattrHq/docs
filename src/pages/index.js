@@ -12,16 +12,13 @@ function HomepageHeader() {
 
   );
 }
-
-
-
-
-
 export default function Home() {
   return (
     <Layout
-      title={`Scattr | Docs`}
-      description="Post 🚀 your article on multiple platforms in 1-click">
+      title={`Docs`}
+      description="Post 🚀 your article on multiple platforms in 1-click"
+    >
+
         <HomepageHeader />
     </Layout>
   );
