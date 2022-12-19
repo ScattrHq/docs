@@ -18,11 +18,10 @@ function HomepageHeader() {
 
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Scattr | ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Scattr | Docs`}
+      description="Post 🚀 your article on multiple platforms in 1-click">
         <HomepageHeader />
     </Layout>
   );
