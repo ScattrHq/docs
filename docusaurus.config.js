@@ -9,7 +9,7 @@ const config = {
   title: 'Scattr',
 
   tagline: 'Post your article on multiple platforms in 1-click 🚀',
-  url: 'https://scattr.io/',
+  url: 'https://docs.scattr.io/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
