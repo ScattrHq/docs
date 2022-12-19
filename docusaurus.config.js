@@ -65,7 +65,7 @@ const config = {
         },
 
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://blog.scattr.io', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/scattrhq',
             label: 'GitHub',
@@ -81,10 +81,10 @@ const config = {
             items: [
               {
                 label: 'Onboarding',
-                to: 'https://docs.scattr.io/docs/category/getting-started',
+                to: '/docs/category/getting-started',
               }, {
                 label: 'Integrations',
-                to: 'https://docs.scattr.io/docs/Get%20Started/Integrations/dev',
+                to: '/docs/get-started/Integrations/dev',
               },
             ],
           },{
